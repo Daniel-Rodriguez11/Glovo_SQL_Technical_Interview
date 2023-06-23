@@ -1,5 +1,5 @@
 # Glovo_SQL_Test
-## SQL technical interview for Glovo (food delivery company).
+## SQL technical interview for food delivery company.
 ____________________________________________________________________________________________________________________________________________________________________________________
 
 Note: The code must be written on T-SQL and must be scalable.
