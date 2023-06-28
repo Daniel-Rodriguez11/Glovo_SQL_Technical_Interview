@@ -64,7 +64,7 @@ The output must be scalable for all weeks and does not require to be in a cohort
 
 
 
-        ----SQL Server code for Q2 resolution
+        --SQL Server code for Q2 resolution
 
     WITH cohort_items AS (
       SELECT
@@ -147,7 +147,7 @@ And here’s the output we expect for this specific example:
 |359954|8141054|2018-06-05 07:57:23.0000000|1|
 |359954|8304239|2018-06-09 11:03:29.0000000|4|
 
-    ----SQL Server code for Q3 resolution
+    --SQL Server code for Q3 resolution
     
     SELECT
         o.customer_id,
