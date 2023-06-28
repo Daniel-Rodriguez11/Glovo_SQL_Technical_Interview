@@ -64,7 +64,7 @@ The output must be scalable for all weeks and does not require to be in a cohort
 
 
 
-        --SQL Server code for Q2 resolution
+    --SQL Server code for Q2 resolution
 
     WITH cohort_items AS (
       SELECT
