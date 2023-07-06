@@ -3,8 +3,7 @@
 ____________________________________________________________________________________________________________________________________________________________________________________
 
 Note: The code must be written on T-SQL and must be scalable.
-### 1. Let’s say you have two tables: orders and order_points.
-Create an SQL query that shows the distance between the courier starting position and the pickup point, as well as the distance between the pickup point and the delivery point.
+### 1. Let’s say you have two tables: orders and order_points. Create an SQL query that shows the distance between the courier starting position and the pickup point, as well as the distance between the pickup point and the delivery point.
 The orders table has 1M+ rows; here’s the first row:
 
 | |id|customer_id|courier_id|acceptance_latitude|acceptance_longitude|
