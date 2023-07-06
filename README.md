@@ -3,8 +3,7 @@
 ____________________________________________________________________________________________________________________________________________________________________________________
 
 Note: The code must be written on T-SQL and must be scalable.
-### 1. Let’s say you have two tables: orders and order_points.
-Create an SQL query that shows the distance between the courier starting position and the pickup point, as well as the distance between the pickup point and the delivery point.
+### 1. [Let’s say you have two tables: orders and order_points. Create an SQL query that shows the distance between the courier starting position and the pickup point, as well as the distance between the pickup point and the delivery point.](https://github.com/Daniel-Rodriguez11/Glovo_SQL_Technical_Interview/blob/main/Q&A_Glovo_SQL_Technical_Interview.md#Q1)
 The orders table has 1M+ rows; here’s the first row:
 
 | |id|customer_id|courier_id|acceptance_latitude|acceptance_longitude|
@@ -17,7 +16,7 @@ The order_points table also has 2M+ rows. As FYI there are two types of point, �
 |1280|89383867|PICKUP|41.401148|2.179275|
 |1281|89383867|DELIVERY|41.3877537|2.1780942|
 ____________________________________________________________________________________________
-### 2. Build one SQL query to create a cohort of Signup to First Order and show the result. The objective of this cohort is to see, out of the users that signed up in Week N, how many did their first order in Week N+1, N+2, N+3...
+### 2. [Build one SQL query to create a cohort of Signup to First Order and show the result. The objective of this cohort is to see, out of the users that signed up in Week N, how many did their first order in Week N+1, N+2, N+3...](https://github.com/Daniel-Rodriguez11/Glovo_SQL_Technical_Interview/blob/main/Q&A_Glovo_SQL_Technical_Interview.md#Q2)
 The users table has 1M+ rows; here’s the first three rows:
 
 | |id|first_order_id|registration_date|
@@ -34,7 +33,7 @@ The orders table has 1M+ rows; here’s the first row:
 
 The output must be scalable for all weeks and does not require to be in a cohort format. The end user could potentially use the pivot function from Excel or Google sheets to do so.
 _______________________
-### 3. Build a sql query to get the difference in days between an order and the previous order that the same customer placed.
+### 3. [Build a sql query to get the difference in days between an order and the previous order that the same customer placed.](https://github.com/Daniel-Rodriguez11/Glovo_SQL_Technical_Interview/blob/main/Q&A_Glovo_SQL_Technical_Interview.md#Q3)
 The orders table has 1M+ rows; here’s the orders for a specific customer:
 
 | |customer_id|id|activation_time|
