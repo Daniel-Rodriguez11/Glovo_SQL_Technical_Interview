@@ -3,6 +3,7 @@
 ____________________________________________________________________________________________________________________________________________________________________________________
 
 Note: The code must be written on T-SQL and must be scalable.
+<a name="Q1"></a>
 ### 1. Let’s say you have two tables: orders and order_points. Create an SQL query that shows the distance between the courier starting position and the pickup point, as well as the distance between the pickup point and the delivery point.
 The orders table has 1M+ rows; here’s the first row:
 
@@ -44,6 +45,7 @@ The order_points table also has 2M+ rows. As FYI there are two types of point, �
         JOIN dbo.question1_order_points p ON o.id = p.order_id AND p.point_type = 'PICKUP'-- Joining the orders table with the pickup points table
         JOIN dbo.question1_order_points d ON o.id = d.order_id AND d.point_type = 'DELIVERY';-- Joining the orders table with the delivery points table
 ____________________________________________________________________________________________
+<a name="Q2"></a>
 ### 2. Build one SQL query to create a cohort of Signup to First Order and show the result. The objective of this cohort is to see, out of the users that signed up in Week N, how many did their first order in Week N+1, N+2, N+3...
 The users table has 1M+ rows; here’s the first three rows:
 
@@ -123,6 +125,7 @@ The output must be scalable for all weeks and does not require to be in a cohort
     ORDER BY B.cohort_week, B.week_number;
 
 _______________________
+<a name="Q3"></a>
 ### 3. Build a sql query to get the difference in days between an order and the previous order that the same customer placed.
 The orders table has 1M+ rows; here’s the orders for a specific customer:
 
